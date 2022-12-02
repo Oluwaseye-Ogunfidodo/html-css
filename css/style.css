@@ -1,0 +1,31 @@
+.box {
+  border: 1px red dotted;
+}
+
+body {
+  font-family: "Century Gothic", same-serif;
+}
+
+/* RESET */
+body, ul,h1,h2,h3,h4,h5,h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* END RESET */
+
+.main-nav {
+  border-bottom: 1px solid #elelel;
+  padding: 8px 0px;
+}
+
+nav a {
+  color: #787c8e;
+}
