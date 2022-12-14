@@ -6,20 +6,6 @@ body {
   font-family: "Century Gothic", same-serif;
 }
 
-/* RESET */
-body, ul,h1,h2,h3,h4,h5,h6 {
-  margin: 0px;
-  padding: 0px;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-/* END RESET */
 
 .main-nav {
   border-bottom: 1px solid #elelel;
@@ -34,96 +20,10 @@ nav a {
   width: 800px;
 }
 
-/* POSITIONING */
 
-.centered {
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.centered-text {
-  text-align: center;
-}
 
-.float-left {
-  float: left;
-}
 
-.float-right {
-  float: right;
-}
-
-.clear-float::after {
-  display: block;
-  content: "";
-  clear: both;
-}
-
-/* END POSITIONING */
-
-/* SIZING */
-
-w-65 {
-  width: 60%;
-}
-
-w-35 {
-  width: 35%;
-}
-
-/* END SINZING */
-
-/* SPACING */
-
-.mb-15 {
-  margin-bottom: 15px;
-}
-
-.ml-20 {
-  margin-left: 20px;
-}
-
-.pt-50 {
-  padding-top: 50px;
-}
-
-.pb-50 {
-  padding-bottom: 50px;
-}
-
-.mb-50 {
-  margin-bottom: 50px;
-}
-
-/* END SPACING */
-
-/* COLORS */
- 
-.pick {
-  color: #ff63b1;
-}
-
-.grey {
-  color: #787c8e;
-}
-
-.dark-grey {
- color: #787c8e;
-}
-
-.dark-background {
-  background-color: #222;
-}
-
-.darker-background {
-  background-color: #171717;
-}
-
-.white-background {
-  background-color: #fff;
-}
-
-/* END COLORS */
 
 .container-fluid {
   width: 100%;
@@ -134,4 +34,9 @@ w-35 {
   width: 100%;
   bottom: 0px;
   font-size: 12px;
+}
+
+.address-text {
+  max-width: 250px;
+  font-size: 13px;
 }
